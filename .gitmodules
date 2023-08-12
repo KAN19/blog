@@ -1,0 +1,4 @@
+[submodule "kan19blog/public"]
+	path = kan19blog/public
+	url = https://github.com/KAN19/kan19.github.io.git
+	branch = main
