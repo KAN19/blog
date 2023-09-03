@@ -1,10 +1,8 @@
 baseURL = "https://kan19.github.io/"
-# title = "Hugo Themes"
-author = "Steve Francia"
-copyright = "Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved."
+author = "Kiet Nguyen"
 paginate = 3
-languageCode = "en"
-DefaultContentLanguage = "en"
+languageCode = "vi"
+DefaultContentLanguage = "vi"
 enableInlineShortcodes = true
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
@@ -12,18 +10,19 @@ ignoreErrors = ["error-remote-getjson"]
 
 # ------------------------------
 theme = "hugo-paper"
-title = "Paper"
+title = "The Engineer Intern"
 
 [params]
   color = 'linen'
 
-  twitter = 'nanxiaobei'
-  github = 'nanxiaobei'
-  instagram = 'nan.xiaobei'
+  github = 'KAN19'
+  instagram = 'nkiet.87'
+  linkedin = 'kiet-nguyen-943564201'
+  
 
-  avatar = 'nanxiaobei@gmail.com'
-  name = 'Lee'
-  bio = 'Discover fresh context'
+  avatar = 'img/avatar.png'
+  name = 'Kiet (Ronald) Nguyen'
+  bio = 'Thực tập sinh tại VNG'
 # ------------------------------
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
