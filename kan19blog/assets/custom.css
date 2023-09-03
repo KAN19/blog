@@ -1,0 +1,4 @@
+/* Place custom css here. */
+.object-cover {
+    object-fit: cover;
+}
