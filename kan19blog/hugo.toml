@@ -13,7 +13,7 @@ theme = "hugo-paper"
 title = "The Engineer Intern"
 
 [params]
-  color = 'linen'
+  color = 'light'
 
   github = 'KAN19'
   instagram = 'nkiet.87'
