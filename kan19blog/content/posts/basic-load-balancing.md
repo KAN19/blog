@@ -152,9 +152,9 @@ Khi triển khai load balancing, chúng ta cần có những chiến thuật và
 ### Performance bottlenecks:
 
 - Load balancer scaling: Nếu load balancers trở thành bottlenecks của hệ thống, hãy cân nhắc việc scale thêm load balancers.
-- Optimize load balancer configuration
-- Cache:
-- Content Delivery Networks (CDNs)
+- Optimize load balancer configuration: Tối ưu lại các settings của load balancer, như là connection limits, timeouts, hoặc buffer sizes
+- Cache: Triên khai thêm cache để hạn chế việc phải gọi đến backend server
+- Content Delivery Networks (CDNs): Tận dụng CDN để có thể serve static content cho end-user nhanh chóng hơn. 
 
 ## Take away ☕
 ![take-away.png](/load-balancing/take-away.png)
